@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <link href="style.css" rel="stylesheet">
+  <title>Exercice 7</title>
+</head>
+<body>
+  <h1><mark class="idendité1">Votre idendité</mark></h1>
+  <div class="votreidendite">
+    <form>
+      <fieldset class="top">
+        <legend class="top">Votre identité</legend>
+      <ol> <!-- Liste avec les chiffre -->
+        <li>
+            <label for="secondName">Nom:</label> <!-- Le label a qu'un seul attribut for, et doit être associé avec un id dans input type -->
+            <input type="text" name="secondName" id="secondName" placeholder="Nom"/> <!-- Il existe d'autre input: value,file,time,date,typeemail,text,number, l'input a un forcément un name  --> <!-- Camelkeys , firstName -->
+        </li>
+        <li>
+            <label for="Prénom">Prénom:</label>
+            <input type="text" name="Prénom" id="Prénom" placeholder="Prénom"/>
+        </li>
+        <li>
+            <label for="Mail">Adresse mail:</label>
+            <input type="text" name="Mail" id="Mail" placeholder="Adresse mail"/>
+        </li>
+      </ol>
+      </fieldset>
+    </form>
+  </div>
+  <h1><mark class="livraison">Adresse de livraison</mark></h1>
+  <div class="adressedelivraison">
+    <form>
+      <fieldset>
+      <ol>
+        <li>
+            <label for="Adresse">Adresse:</label>
+            <textarea name="Adresse" id="Adresse"></textarea>
+        </li>
+        <li>
+            <label for="Code Postal">Code Postal:</label>
+            <input type="text" name="Code Postal" id="Adresse" placeholder="Code Postal"/>
+        </li>
+        <li>
+            <label for="Ville">Ville:</label>
+            <input type="text" name="Ville" id="Ville" placeholder="Ville"/> <!-- textarea rows="5" cols="14" -->
+        </li>
+      </ol>
+      </fieldset>
+    </form>
+  </div>
+  <h1><mark class="informations">Informations de réglement</mark></h1>
+  <div class="informationsdereglement">
+    <form>
+      <fieldset>
+      <ol>
+            <li>Type de carte bancaire:</li>
+            <input type="radio" name="CB" value="VISA" id="VISA"/> <label for="VISA">VISA</label><br> <!-- checkbox on peut en sélectionner plusieurs, radio seulement 1 choix. radio button il faut qu'il est le même nom-->
+            <input type="radio" name="CB" value="MASTERCARD" id="MASTERCARD"/> <label for="MASTERCARD">MASTERCARD</label><br>
+        <li>
+            <label for="Numéro de carte">Numéro de carte:</label>
+            <input type="text" name "Numéro de carte" id="Numéro de texte" placeholder="Numéro de carte"/>
+        </li>
+        <li>
+            <label for="securityNumber">Code de sécurité:</label>
+            <input type="text" name="securityNumber" id="securityNumber" placeholder="Code de sécurité"/>
+        </li>
+        <li>
+            <label for="Nom du titulaire">Nom du titulaire:</label>
+            <input type="text" name "Nom du titulaire" id="Nom du titulaire" placeholder="Nom du titulaire"/>
+        </li>
+        </ol>
+        </fieldset>
+      <button type ="submit" class="button">J'achéte!</button> <!-- 3 type de bouton : input type button, button, input type submit -->
+    </form>
+  </div>
+
+</body>
+</html>

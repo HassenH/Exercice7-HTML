@@ -1,0 +1,74 @@
+h1
+{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+p
+{
+  font-size: 14px;
+}
+
+
+.votreidendite
+{
+  background-color: #4681A9;
+  width: 100%;
+  height: 130px;
+  margin-top:-16px;
+  padding-bottom: 12px;
+}
+
+.adressedelivraison
+{
+  background-color: #9A12B3;
+  width: 100%;
+  height: 120px;
+  margin-top:-16px;
+  padding-bottom: 40px;
+}
+
+.informationsdereglement
+{
+  background-color: #DB0A5B;
+  width: 100%;
+  height: 215px;
+  margin-top:-16px;
+  margin-bottom: 5px;
+}
+
+.idendité1
+{
+  background-color: #4681A9;
+  width: 100%;
+  height: 10px;
+}
+
+.livraison
+{
+  background-color: #9A12B3;
+  width: 100%;
+  height: 10px;
+}
+
+.informations
+{
+  background-color: #DB0A5B;
+  width: 100%;
+  height: 10px;
+}
+
+.input
+{
+  border-radius: 0px;
+}
+
+li
+{
+  margin-bottom: 2px;
+}
+
+button
+{
+  border: 1px solid silver;
+}
